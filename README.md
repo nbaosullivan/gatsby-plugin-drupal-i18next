@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-drupal-i18next",
       options: {
-        baseUrl: "http://decoupled-translations.ddev.site/",
+        baseUrl: process.env.DRUPAL_BASE_URL,
         basicAuth: {
           username: process.env.DRUPAL_BASIC_AUTH_USERNAME,
           password: process.env.DRUPAL_BASIC_AUTH_PASSWORD,
