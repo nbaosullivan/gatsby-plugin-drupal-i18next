@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-plugin-drupal-i18next",
+  "description": "Gatsby plugin for sourcing, writing and using Drupal interface translations with i18next.",
+  "version": "1.0.0",
+  "author": "Nick O'Sullivan",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "drupal",
+    "i18next"
+  ],
+  "peerDependencies": {
+    "gatsby": ">=2.21.26",
+    "i18next": "^19.4.5",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1",
+    "react-i18next": "^11.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "fs": "^0.0.1-security",
+    "gulp-sort": "^2.0.0",
+    "i18next-scanner": "^3.0.0",
+    "typescript": "^4.1.2",
+    "vinyl-fs": "^3.0.3"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbaosullivan/gatsby-plugin-drupal-i18next.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbaosullivan/gatsby-plugin-drupal-i18next/issues"
+  },
+  "homepage": "https://github.com/nbaosullivan/gatsby-plugin-drupal-i18next#readme"
+}
