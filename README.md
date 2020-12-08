@@ -7,7 +7,7 @@ Pulls and pushes interface translations tagged wih the context "Decoupled Transl
 
 ## Install
 
-`yarn add gatsby-plugin-drupal-18next`
+`npm install gatsby-plugin-drupal-18next`
 
 ## How to use
 
