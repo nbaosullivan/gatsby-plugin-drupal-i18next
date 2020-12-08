@@ -1,4 +1,4 @@
-# gatsby-plugin-drupal-18next
+# gatsby-plugin-drupal-i18next
 
 Gatsby plugin for sourcing, writing and using Drupal interface translations with i18next.
 
