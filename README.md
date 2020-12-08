@@ -52,7 +52,7 @@ Then in your components, templates and pages you can import react-i18next and us
 
 Example usage in a Gatsby template:
 
-```
+```typescript jsx
 import * as React from "react"
 import { graphql, PageProps } from "gatsby"
 import { Layout } from "../components/layout"
