@@ -42,6 +42,7 @@ function withDefaults(pluginOptions) {
         nsSeparator: false, // namespace separator
         keySeparator: false, // key separator
       },
+      ...pluginOptions.i18nextScannerOptions
     },
   }
 }
